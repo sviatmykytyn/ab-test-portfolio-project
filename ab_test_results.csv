@@ -1,0 +1,17 @@
+test,metric,numerator_event,denominator_event,numerator_test,denominator_test,conversion_test,numerator_control,denominator_control,conversion_control,relative_change_%,z_stat,p_value,significant
+1,add_payment_info/session,add_payment_info,session,2229,45193,0.0493,1988,45362,0.0438,12.54,3.925,0.0001,True
+1,add_shipping_info/session,add_shipping_info,session,3221,45193,0.0713,3034,45362,0.0669,6.56,2.604,0.0092,True
+1,begin_checkout/session,begin_checkout,session,4021,45193,0.089,3784,45362,0.0834,6.66,2.979,0.0029,True
+1,new_account/session,new account,session,3681,45193,0.0815,3823,45362,0.0843,-3.35,-1.543,0.1229,False
+2,add_payment_info/session,add_payment_info,session,2409,50244,0.0479,2344,50637,0.0463,3.58,1.241,0.2146,False
+2,add_shipping_info/session,add_shipping_info,session,3510,50244,0.0699,3480,50637,0.0687,1.65,0.71,0.478,False
+2,begin_checkout/session,begin_checkout,session,4313,50244,0.0858,4262,50637,0.0842,1.99,0.953,0.3406,False
+2,new_account/session,new account,session,4184,50244,0.0833,4165,50637,0.0823,1.24,0.589,0.556,False
+3,add_payment_info/session,add_payment_info,session,3697,70439,0.0525,3623,70047,0.0517,1.47,0.643,0.5201,False
+3,add_shipping_info/session,add_shipping_info,session,5188,70439,0.0737,5298,70047,0.0756,-2.62,-1.414,0.1574,False
+3,begin_checkout/session,begin_checkout,session,9264,70439,0.1315,9532,70047,0.1361,-3.35,-2.511,0.012,True
+3,new_account/session,new account,session,5822,70439,0.0827,5856,70047,0.0836,-1.13,-0.643,0.5199,False
+4,add_payment_info/session,add_payment_info,session,3601,105141,0.0342,3731,105079,0.0355,-3.54,-1.571,0.1162,False
+4,add_shipping_info/session,add_shipping_info,session,4956,105141,0.0471,5128,105079,0.0488,-3.41,-1.786,0.0741,False
+4,begin_checkout/session,begin_checkout,session,12267,105141,0.1167,12555,105079,0.1195,-2.35,-1.996,0.0459,True
+4,new_account/session,new account,session,8687,105141,0.0826,8984,105079,0.0855,-3.36,-2.375,0.0175,True
